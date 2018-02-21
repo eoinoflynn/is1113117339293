@@ -4,6 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 #section2{
     background-image: url("http://theflightfinder.com/wp-content/uploads/2017/12/amsterdam2.jpg");
@@ -11,6 +12,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color:black;
 }
 #section3{
     background-image: url("http://dimidistours.gr/fileses/5877");
@@ -18,6 +20,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color:white;
 }
 
 .section{

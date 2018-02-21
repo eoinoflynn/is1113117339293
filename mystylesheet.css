@@ -11,6 +11,7 @@ html,body{
 
 .mainheading{
     text-align: center;
+    color: blue;
 }
 
 ul{
@@ -36,26 +37,28 @@ a{
 }
 
 
-a:hover{
-    color:red;
+li > a:hover{
+    color:blue;
     background:white;
     padding:2%;
 }
 
 
-
-
-
-
 .center {
     text-align: center;
+    color: black;
+    background-color:lightblue;
 }
 
 body {
-    background-image: url("http://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/City_Landscape_Background.jpg");
+    background-image: url("http://lovebeingretired.com/wp-content/uploads/2011/03/Ice-plant-foreground1.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+
+.centerbutton {
+    text-align: center;
 }
