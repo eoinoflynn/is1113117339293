@@ -40,3 +40,21 @@
 #bg-fill{
     background-color:lightblue;
 }
+
+.imageleft{
+position: absolute;
+top: 10%;
+left: 10%;
+width: 14%;
+border-radius: 15%;
+background-color: white;
+}
+
+.imageright{
+position: absolute;
+top: 10%;
+right: 10%;
+width: 14%;
+border-radius: 15%;
+background-color: white;
+}

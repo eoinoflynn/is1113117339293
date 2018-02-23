@@ -62,3 +62,95 @@ body {
 .centerbutton {
     text-align: center;
 }
+
+
+.boxsalesforce {
+    background-color: lightgrey;
+    width: 200px;
+    border: 25px solid blue;
+    padding: 15px;
+    margin: 25px;
+    height: 50%;
+}
+
+.salespic {
+position: absolute;
+width: 10%;
+height: 10%;
+border-radius: 15%;
+background-color: white;
+left: 5%;
+top: 20%;
+}
+
+.saleswriting {
+    position: absolute;
+    top:40%;
+    left:5%;
+}
+
+.boxcloud9 {
+    background-color: lightgrey;
+    width: 200px;
+    border: 25px solid blue;
+    padding: 15px;
+    margin: 25px;
+    height: 50%;
+    position:absolute;
+    top: 4.8%;
+    left: 22%;
+}
+
+.boxamazon {
+    background-color: lightgrey;
+    width: 200px;
+    border: 25px solid blue;
+    padding: 15px;
+    margin: 25px;
+    height: 50%;
+    position:absolute;
+    top: 4.8%;
+    left: 44%;
+}
+
+.boxgmail {
+    background-color: lightgrey;
+    width: 200px;
+    border: 25px solid blue;
+    padding: 15px;
+    margin: 25px;
+    height: 50%;
+    position:absolute;
+    top: 4.8%;
+    left: 66%;
+}
+
+.cloudpic {
+position: absolute;
+width: 10%;
+height: 10%;
+border-radius: 15%;
+background-color: white;
+left: 28%;
+top: 20%;
+}
+
+.amazonpic {
+position: absolute;
+width: 10%;
+height: 10%;
+border-radius: 15%;
+background-color: white;
+left: 50%;
+top: 20%;
+}
+
+.gmailpic {
+position: absolute;
+width: 10%;
+height: 10%;
+border-radius: 15%;
+background-color: white;
+left: 72%;
+top: 20%;
+}
