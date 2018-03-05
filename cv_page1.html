@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+    
+
     <head>
         <title>Personal</title>
            <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
@@ -10,21 +12,45 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    
     </head>
 
     <body>
         <h1 class="mainheading">Personal Details</h1>
-        
-        <div class="center">
-        <p><strong>Name:</strong> Eoin *****</p>
-        <p><strong>Address:</strong> *****, Cork, Ireland </p>
-        <p><strong>Phone:</strong> 087 33527</p>
-        <p><strong>Email:</strong> 117339293@umail.ucc.ie</p>
-        </div>
-        
+
+     <!-- The following code creates a card, which is a flexible and extensible content container. Here i am using a card deck, which allows seperate alligned containers. I got the idea from "https://getbootstrap.com/docs/4.0/components/card/" -->
+      
+  <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="http://www.cork-guide.ie/assets/photos/cork_city_07_600.jpg" alt="Cork Image">
+    <div class="card-body">
+      <h5 class="card-title">Cork</h5>
+      <p class="card-text">I have lived in Cork all my life. As a child i loved going to Shandon Bells. My favourite places in Cork include: The English Market, Gougane Barra and skibbereen in West Cork</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="http://www.bristolphysiotherapyclinic.co.uk/shopimages/sections/normal/contact%20us%20icon2.jpg" alt="Contact Details" height="52%">
+    <div class="card-body">
+      <h5 class="card-title">Contact Details</h5>
+      <p class="card-text">My name is: Eoin ******.</br>My Address is: ******, Cork, Ireland</br>My Phone Number is: 087 *** ***</br> My email is: 117339293@umail.ucc.ie</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://metrouk2.files.wordpress.com/2017/10/kxk-hi-res-4.jpg?quality=80&strip=all" alt="Krept and Konan" height="55%">
+    <div class="card-body">
+      <h5 class="card-title">Music</h5>
+      <p class="card-text">I love listening to music! My 2 favourite genres of music are Rap and Deep House. Currently I love UK Grime which is a sub genre of Rap. My favourite Grime Artists are Krept & Konan</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+    
+  </br>  
     <div class="centerbutton">
         <button class="button"><a href="cv_page2.html">Next</a></button>
     </div>
-        
-    </body>      
+
+
 </html>

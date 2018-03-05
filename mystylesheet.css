@@ -232,3 +232,20 @@ top: 20%;
     left:71%;
 }
 
+.prespic{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    border-radius: 15%;
+    left: 25%;
+    top: 15%;
+}
+
+.uccpic{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    border-radius: 15%;
+    left: 65%;
+    top: 15%;
+}
