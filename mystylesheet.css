@@ -71,22 +71,9 @@ body {
     padding: 15px;
     margin: 25px;
     height: 50%;
-}
-
-.salespic {
-position: absolute;
-width: 10%;
-height: 10%;
-border-radius: 15%;
-background-color: white;
-left: 5%;
-top: 20%;
-}
-
-.saleswriting {
     position: absolute;
-    top:40%;
-    left:5%;
+    top: 4.8%;
+    left: 0.08%;
 }
 
 .boxcloud9 {
@@ -125,6 +112,16 @@ top: 20%;
     left: 66%;
 }
 
+.salespic {
+position: absolute;
+width: 10%;
+height: 10%;
+border-radius: 15%;
+background-color: white;
+left: 6%;
+top: 20%;
+}
+
 .cloudpic {
 position: absolute;
 width: 10%;
@@ -154,3 +151,84 @@ background-color: white;
 left: 72%;
 top: 20%;
 }
+
+.salesforcelink{
+    position: absolute;
+    top:62%;
+    left:6%;
+}
+
+.cloudlink{
+    position: absolute;
+    top:62%;
+    left:29%;
+}
+
+.awslink{
+    position: absolute;
+    top:62%;
+    left:52%;
+}
+
+.gmaillink{
+    position: absolute;
+    top:62%;
+    left:73%;
+}
+
+
+.contactinfo {
+    position: absolute;
+    top:75%;
+    left:3%;
+}
+
+.boxinfo {
+    background-color: lightgrey;
+    width: 270px;
+    border: 10px solid blue;
+    padding: 10px;
+    margin: 25px;
+    height: 20%;
+    position:absolute;
+    top: 67%;
+    left: 0.08%;
+    text-decoration: underline;
+}
+
+.buyprod {
+    position:absolute;
+    top:80%;
+    left:75%;
+}
+
+.cloudhome {
+    position:absolute;
+    top:85%;
+    left:75%;
+}
+
+.saleswriting {
+    position: absolute;
+    top:31%;
+    left:5%;
+}
+
+.cloudwriting {
+    position: absolute;
+    top:31%;
+    left:27%;
+}
+
+.awswriting {
+    position: absolute;
+    top:31%;
+    left:49%;
+}
+
+.gmailwriting {
+    position: absolute;
+    top:31%;
+    left:71%;
+}
+
