@@ -1,55 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <!-- Here the title is set for this web page -->
         <title>Select Product</title>
-        
-       <link rel="stylesheet" href="Ebus.css" type="text/css" />
+
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
   
-   
-      <style>
-      .container{
-    display:inline;
-}
-.container1{
-  top:0%
-  width:100%;
-  height:250%;
-  text-align: center;
+  <!-- the following is an inline style sheet --> 
+ <style>
 
-
+*{
+    margin:0;
 }
-/* Centered text */
-.centered {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   
+  form{
+      position:absolute;
+      left: 40%;
   }
+  
+  #clear{
+    position: absolute;
+    left:49%;
+    top:60%;
+}
+
+  #calculate{
+    position: absolute;
+    left:40%;
+    top:60%;
+}
+  
  
 </style>
     </head>
     
-    <body style="background-color: lightgrey;">
-        <div class="container1">
-            <img src="http://lavinandassociates.com/wp-content/uploads/2015/01/Dollarphotoclub_68627341.jpg" alt="Cloud" width="1440" height="250" >
-           <div class="centered"><h1>Clouds4U</h1></div>
+    <body style="background-color: #bfbfbf;">
+        
        
-       
-       
+         <form name="myForm" method="POST" onsubmit="return validateForm()" action="Ebus2.php">
+        
+         <!-- Here the heading is set for this web page. -->
         <h1>Order Form</h1>
-        
-          <form name="myForm" method="POST" onsubmit="return validateForm()" action="Ebus2.php">
-        
-        
             
             <br>
+            <!-- Here is another heading set for this web page. -->
             <h3>Select a product</h3>
-            
+            </br>
            
             
             <label for="salesforce">
@@ -79,7 +77,7 @@
               <br>
              <label for="gmail">
                 <input type="radio" id="gmail" name="product" onclick="disablebtnProceed()"/>
-                Gmail @ $250
+                Gmail @ $400
             </label>
             
               <br>
@@ -122,11 +120,11 @@
         </form>
         
         <br>
-        <button onClick="calcSub()">Calculate Cost</button>
-        <a role="button" href="Ebus1.php">Clear Choice</a>
+    
+            <button onClick="calcSub()" id ="calculate">Calculate Cost</button>
+            <a role="button" href="Ebus1.php" id="clear">Clear Choice</a>
+    
         
        
-       
-        </div>
     </body>
 </html>

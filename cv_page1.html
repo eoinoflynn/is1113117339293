@@ -3,22 +3,29 @@
     
 
     <head>
+        <!-- Here the characters are set for this web page in order for it to be valid on W3C's validator -->
+        <meta charset="utf-8" />
+      
+        <!-- Here the title is set for this web page -->
         <title>Personal</title>
-           <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
+        
+        <!-- the following code links this file to my css file which allows me to use css code on this page -->
+        <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
            
-            <!--Adding Bootstrap-->
+        <!--Adding Bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     
     </head>
 
     <body>
-        <h1 class="mainheading">Personal Details</h1>
+      <!-- Here the heading is set for this web page. It is styled through the class mainheading which resides in the stylesheet mystylesheet.css -->
+      <h1 class="mainheading">Personal Details</h1>
 
-     <!-- The following code creates a card, which is a flexible and extensible content container. Here i am using a card deck, which allows seperate alligned containers. I got the idea from "https://getbootstrap.com/docs/4.0/components/card/" -->
+     
+  <!-- The following code creates a card through bootstrap, which is a flexible and extensible content container. Here i am using a card deck, which allows seperate alligned containers. I got the idea from "https://getbootstrap.com/docs/4.0/components/card/" -->
       
   <div class="card-deck">
   <div class="card">
@@ -29,14 +36,14 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="http://www.bristolphysiotherapyclinic.co.uk/shopimages/sections/normal/contact%20us%20icon2.jpg" alt="Contact Details" height="52%">
+    <img class="card-img-top" src="http://www.bristolphysiotherapyclinic.co.uk/shopimages/sections/normal/contact%20us%20icon2.jpg" alt="Contact Details" style="height:52%;">
     <div class="card-body">
       <h5 class="card-title">Contact Details</h5>
-      <p class="card-text">My name is: Eoin ******.</br>My Address is: ******, Cork, Ireland</br>My Phone Number is: 087 *** ***</br> My email is: 117339293@umail.ucc.ie</p>
+      <p class="card-text">My name is: Eoin ******.<br>My Address is: ******, Cork, Ireland<br>My Phone Number is: 087 *** ***<br> My email is: 117339293@umail.ucc.ie</p>
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="https://metrouk2.files.wordpress.com/2017/10/kxk-hi-res-4.jpg?quality=80&strip=all" alt="Krept and Konan" height="55%">
+    <img class="card-img-top" src="https://metrouk2.files.wordpress.com/2017/10/kxk-hi-res-4.jpg?quality=80&strip=all" alt="Krept and Konan" style="height:55%;">
     <div class="card-body">
       <h5 class="card-title">Music</h5>
       <p class="card-text">I love listening to music! My 2 favourite genres of music are Rap and Deep House. Currently I love UK Grime which is a sub genre of Rap. My favourite Grime Artists are Krept & Konan</p>
@@ -44,10 +51,13 @@
   </div>
 </div>
     
-  </br>  
+  <br>  
+   
+   <!-- the following is 2 buttons, they are aligned in the center by the class centerbutton which resides in the stylesheet mystylesheet.css -->
     <div class="centerbutton">
-        <button class="button"><a href="homepage.html">Home</a></button>
-        <button class="button"><a href="cv_page2.html">Next</a></button>
+        <a href = "homepage.html" class="button" role="button">Home</a>
+        <a href = "cv_page2.html" class="button" role="button">Next</a>
+
     </div>
 
 

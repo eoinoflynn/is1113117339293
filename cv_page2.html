@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Here the characters are set for this web page in order for it to be valid on W3C's validator -->
+        <meta charset="utf-8" />
+        
+         <!-- Here the title is set for this web page -->
         <title>Educational Details</title>
-           <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
+        
+        <!-- the following code links this file to my css file which allows me to use css code on this page -->
+        <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
            
-            <!--Adding Bootstrap-->
+        <!--Adding Bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     </head>
+    
     <body>
+        <!-- Here the heading is set for this web page. It is styled through the class mainheading which resides in the stylesheet mystylesheet.css -->
         <h1 class="mainheading">Educational Details</h1>
         
+        <!-- the following are paragraphs of text, they are aligned in the center by the div class center which resides in the stylesheet mystylesheet.css. I use the strong tag to make text bold-->
         <div class="center">
         <p><strong>Primary School:</strong> St.Anthonys</p>
         <p><strong>Year:</strong> 2004-2011</p>
         
-        </br>
+        <br>
         
         <p><strong>Secondary Education:</strong> PBC Cork </p>
         <p><strong>Year:</strong> 2011-2017</p>
@@ -30,7 +38,7 @@
         <p><strong>Year:</strong> 2017-2021</p>
         </div>
         
-                <!-- this code that arranges a Pres logo -->
+      <!-- this following arranges 2 images on the web page. They are positioned by 2 div classes which reside in the stylesheet mystylesheet.css  -->
       <div>
        <img  class="prespic" src="https://static1.squarespace.com/static/59a6b548d2b857a0be094c95/t/5a184cc1c83025aa86149f32/1520002216269/?format=1500w" alt="Pres logo">
       </div>  
@@ -40,7 +48,6 @@
       </div> 
     
       <!-- The following code creates collapsible text boxes using bootstrap. I got the idea from "https://getbootstrap.com/docs/4.0/components/collapse/" -->
-      
       <div id="accordion">
   <div class="card">
     <div class="card-header" id="headingOne">
@@ -53,8 +60,8 @@
 
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="card-body">
-        I attended St. Anthonys from 2002 to 2011.</br>
-        St. Anthonys is an all boys primary school.</br>
+        I attended St. Anthonys from 2002 to 2011.<br>
+        St. Anthonys is an all boys primary school.<br>
         It is situated in Beechwood Park, Ballinlough, Cork.
       </div>
     </div>
@@ -69,9 +76,9 @@
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="card-body">
-       I attended Presentation Brothers College (PBC) Cork from 2012 to 2017.</br>
-       PBC is an all boys Secondary school.</br>
-       It is situated on Mardyke Walk, Mardyke, Cork</br>
+       I attended Presentation Brothers College (PBC) Cork from 2012 to 2017.<br>
+       PBC is an all boys Secondary school.<br>
+       It is situated on Mardyke Walk, Mardyke, Cork<br>
        
        
       </div>
@@ -87,19 +94,21 @@
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
       <div class="card-body">
-       I began studying in University College Cork in 2017.</br>
-       I am studying Business Information Systems(BIS).</br>
+       I began studying in University College Cork in 2017.<br>
+       I am studying Business Information Systems(BIS).<br>
        BIS is a 4 year course so I will graduate in 2021.
       </div>
     </div>
   </div>
 </div>
    
-   </br>   
-    <!-- This is a next button -->
+   <br>   
+    
+     <!-- the following are 2 buttons, they are aligned in the center by the class centerbutton which resides in the stylesheet mystylesheet.css -->
       <div class="centerbutton">
-        <button class="button"><a href="cv_page1.html">Back</a></button>
-        <button class="button"><a href="cv_page3.html">Next</a></button>
+        <a href = "cv_page1.html" class="button" role="button">Back</a>
+        <a href = "cv_page3.html" class="button" role="button">Next</a>
+
       </div>
         
         

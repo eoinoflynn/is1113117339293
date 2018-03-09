@@ -8,38 +8,37 @@ session_start();
         
         <title> Enter Details</title>
         
-        
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     
-    <body style="background-color: lightgrey;">
+    <body style="background-color: #bfbfbf;">
         
-        <style>/* Centered text */
-    .centered {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    
+        <style>
+   
+   *{
+    margin:0;
 }
-          
+  form{
+      position:absolute;
+      left: 40%;
+      top:20%;
+  }
+
+  #validate{
+    position: absolute;
+    left:40%;
+    top:64%;
+}
+         
         </style>
-          <div class="container1">
-            <img src="https://www.surfertoday.com/images/stories/breakingwave.jpg" alt="wave" width="1440" height="250" >
-           <div class="centered"><h1>Wave Crest Communations</h1></div>
        
-       
-     
+             <form name = "myForm"  method="POST" action="Ebus3.php">
+                    
             <br>
             <h3>Please enter your details</h3>
             <br>
-            
-            
-            
-            
-             <form name = "myForm"  method="POST" action="Ebus3.php">
+                    
                     <br>
                     <label for = "name">
                         <strong>  Name:</strong>
@@ -50,7 +49,7 @@ session_start();
                     <label for = "email">
                         <strong> Email:</strong>
                         <br>
-                        <input type = "email" id ="email" name="email"/>
+                        <input type = 'text' id ="email" name="email"/>
                     </label>
                     <br><br>
                     
@@ -71,7 +70,7 @@ session_start();
            </div>
             
             <br>
-            <button onClick="validateDetails()">Validate</button>
+            <button onClick="validateDetails()" id="validate">Validate</button>
           
             <?php
             //set session variable 

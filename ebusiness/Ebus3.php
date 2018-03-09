@@ -7,7 +7,8 @@ $email =$_REQUEST['email'];
 <html>
     <head>
         <title> Receipt</title>
-        <link rel="stylesheet" href="mystylesheet4.css" type="text/css"/>
+        </br>
+        <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
         
          <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -15,61 +16,74 @@ $email =$_REQUEST['email'];
       
      
      </head>
-    <body style="background-color:lightgrey;">
+    <body style="background-color: #bfbfbf;">
         
       <style>
-      .container{
-    display:inline;
-}
-.container1{
-     top:0%;
-  width:100%;
-  height:250%;
-  text-align: center;
 
-
+   *{
+    margin:0;
 }
-/* Centered text */
-.centered {
+  form{
+      position:absolute;
+      left: 40%;
+      top:20%;
+  }
+
+  #validate{
     position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   
-  }
-  .container2{
-      text-decoration:none;
-      color:black;
-      
-  }
-  .a{
-  text-decoration:none;
-      color:black;
-  }
+    left:40%;
+    top:64%;
+}
+
+img{
+    position: relative;
+    z-index: -1;
+    width:100%;
+    height:100%;
+}
+
+.scroll{
+    position:absolute;
+    width: 700%;
+    height: 300%;
+    Left:-300%;
+    top:-100%;
+}
+
+#link{
+    position:absolute;
+    left: 40%;
+    top: 40%;
+}
+
   </style>
-   <div class="container1">
-            <img src="https://www.surfertoday.com/images/stories/breakingwave.jpg" alt="wave" width="1440" height="250" >
-           <div class="centered"><h1>Wave crest Communications</h1></div>
+  
+           
        
-        
+       <form>
+       
         <Stong><h1>Receipt</h1></Stong>
+        </br>
         
-       
+        <div class= "scroll">
+       <img src="https://images.vexels.com/media/users/3/139712/isolated/preview/8af258362339def1d2c8a5541ee722f7-blank-scroll-paper-by-vexels.png">
+       </div>
                    
 
        
              <?php
             //Echo session varaibles that were set to the previous page
         echo("<strong>Name: </strong>". $name);
-        echo("<br><strong>Email: </strong>". $email);
-        echo "<br><strong>Total: $</strong>" .$_SESSION["total"] ;
+        echo("</br></br><strong>Email: </strong>". $email);
+        echo "</br></br><strong>Total: $</strong>" .$_SESSION["total"] ;
         ?>
-    
+    </br></br>
       
         </div>
              
-            <div class="container2">
-            <a href=" ../homepage.html">Home</a>
-            </div>
+
+
+            </form>
+             <button class="button"><a href=" ../homepage.html" id="link">Home</a></button>
     </body>
     </html>

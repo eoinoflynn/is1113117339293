@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <!-- Here the characters are set for this web page in order for it to be valid on W3C's validator -->
+        <meta charset="utf-8" />
+        
+        <!-- Here the title is set for this web page -->
         <title>Personal</title>
-           <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
-            <link rel="stylesheet" href="int_pages.css" type="text/css" />
            
-            <!--Adding Bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+           <!-- the following code links this file to 2 css files which allows me to use css code on this page -->
+           <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
+           <link rel="stylesheet" href="int_pages.css" type="text/css" />
+           
+         <!--Adding jquery-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     </head>
 
     <body>
+        <!-- Here the heading is set for this web page. It is styled through the class mainheading which resides in the stylesheet mystylesheet.css -->
         <h1 class="mainheading">Sports</h1>
       
+     <!-- the following are paragraphs of text, they are aligned in the center by the div class center which resides in the stylesheet mystylesheet.css. I use the strong tag to make text bold-->
      <div class="center">
         <p><strong>Favourite Sport:</strong> Football</p>
         <p><strong>Favourite Team:</strong> Liverpool</p>
@@ -23,6 +31,7 @@
         <p><strong>Gym:</strong>Dennehys, Douglas</p>
     </div> 
     
+   <!-- this following arranges 2 images on the web page. They are positioned by 2 div classes which resides in the stylesheet int_pages.css  -->
    <div>
    <img  class="dumbellpic" src="https://cdn4.iconfinder.com/data/icons/SUPERVISTA/education_icons/png/256/physical_education.png" alt="Dumbell">
    </div>   
@@ -31,9 +40,10 @@
    <img  class="footballpic" src="https://shop.savethechildren.org.uk/wp-content/uploads/2016/10/football-1.png" alt="Football">
    </div>   
     
+    <!-- the following is 2 buttons, they are aligned in the center by the class centerbutton which resides in the stylesheet mystylesheet.css -->
     <div class="centerbutton">
-        <a href="../homepage.html" type="button" class ="btn btn-success">Home</a></button>
-        <a href="travel.html" type="button" class="btn btn-success">Next</a></button>
+        <a href="../homepage.html" type="button" class ="btn btn-success">Home</a>
+        <a href="travel.html" type="button" class="btn btn-success">Next</a>
     </div>
 
     </body>      
